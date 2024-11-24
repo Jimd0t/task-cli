@@ -55,6 +55,13 @@ def main(task_library: TaskLibrary) -> bool:
             print(f'Task {id} updated succesfully!')
         else:
             print('An error occured')
+    elif command == 'delete':
+        if len(sys.argv) < 3:
+            print("missing arguments")
+            return False
+        id = int(sys.argv[2])
+        completed = task_library.delete_task(id=id)
+        print("Completed deletion of task!" if completed else "There was an error")
 
 
 def load_tasks():
