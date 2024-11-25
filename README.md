@@ -1,6 +1,6 @@
 # Description
 In this program you'll find a simple structure for tasks with parameters such as the **Name**, **Status**, **Created Date** and **Updated Date**. The data is stored in a **json** file which is initialized upon starting the script.
-This is a simple cli app for research and learning purposes motivated by **[roadmap.sh](https://roadmap.sh/)** 
+This is a simple cli app for research and learning purposes motivated by **[roadmap.sh](https://roadmap.sh/)** . The project is: [task-tracker](https://roadmap.sh/projects/task-tracker)
 
 # Requirements
 1. You will need to have installed Python 3 on your computer
